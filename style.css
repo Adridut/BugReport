@@ -1,0 +1,30 @@
+div {
+    padding: 5px;
+    margin: 5px;
+}
+
+button {
+    background: lightcoral;
+    border-color: lightcoral;
+    color: white;
+}
+
+hr {
+    border-color: lightcoral;
+    background: lightcoral;
+}
+
+.row {
+    display: inline-block;
+}
+
+
+
+.overlay {
+    width: 99%;
+    height: 99%;
+    left: 0;
+    top: 0;
+    background: white;
+    z-index: 10;
+}

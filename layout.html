@@ -1,48 +1,75 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Bug Report</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h1>Bug Report</h1>
 
-<div>
+
+<div class="overlay">
+
+    <h2>Bug Report</h2>
+
     <form>
         <div>
-            <input type="text" id="bug_title" name="bug_title" placeholder="Bug title">
+            <p class="row">Title: </p>
+            <div class="row rightElement">
+                <input  type="text" id="bug_title" name="bug_title" placeholder="Bug title">
+            </div>
         </div>
+        <hr>
         <div>
-            <input type="text" id="reporter" name="reporter" placeholder="Reporter">
+            <p class="row">Reporter: </p>
+            <div class="row rightElement">
+                <input type="text" id="reporter" name="reporter" placeholder="Reporter">
+            </div>
         </div>
+        <hr>
         <div>
-            <input type="text" id="submit_date" name="submit_date" placeholder="Submit Date">
+            <p class="row">Date: </p>
+            <input class="row rightElement" type="text" id="submit_date" name="submit_date" placeholder="Submit Date">
         </div>
+        <hr>
         <div>
-            <input type="text" id="summary" name="summary" placeholder="Summary">
+            <p class="row">Summary: </p>
+            <input class="row rightElement" type="text" id="summary" name="summary" placeholder="Summary">
         </div>
+        <hr>
         <div>
-            <input type="url" id="url" name="url" placeholder="URL">
+            <p class="row">URL: </p>
+            <input class="row rightElement" type="url" id="url" name="url" placeholder="URL">
         </div>
+        <hr>
         <div>
-            <input type="file" id="screenshot" name="screenshot">
+            <p class="row">Screenshot: </p>
+            <input class="row rightElement" type="file" id="screenshot" name="screenshot">
         </div>
+        <hr>
         <div>
-            <input type="text" id="browser" name="browser" placeholder="Browser">
+            <p class="row">Browser: </p>
+            <input class="row rightElement" type="text" id="browser" name="browser" placeholder="Browser">
         </div>
+        <hr>
         <div>
-            <input type="radio" id="low" name="priority">
-            <label for="low">Low</label><br>
-            <input type="radio" id="medium" name="priority">
-            <label for="medium">Medium</label><br>
-            <input type="radio" id="high" name="priority">
-            <label for="high">High</label>
+            <p>Priority: </p>
+            <div class="row rightElement">
+                <input type="radio" id="low" name="priority">
+                <label for="low">Low</label><br>
+                <input type="radio" id="medium" name="priority">
+                <label for="medium">Medium</label><br>
+                <input type="radio" id="high" name="priority">
+                <label for="high">High</label>
+            </div>
         </div>
+        <hr>
         <div>
-            <input type="text" id="description" name="description" placeholder="Description">
+            <p class="row">Description: </p>
+            <input class="row rightElement" type="text" id="description" name="description" placeholder="Description">
         </div>
+        <hr>
         <button type="submit" id="submit">Post</button>
 
     </form>
