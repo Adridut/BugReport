@@ -1,0 +1,20 @@
+.overlay {
+    width: 99%;
+    height: 99%;
+    left: 0;
+    top: 0;
+    background: lightcoral;
+    z-index: 10;
+}
+
+h2 {
+    padding: 5px;
+}
+
+p {
+    padding: 5px;
+}
+
+img {
+    padding: 5px;
+}
